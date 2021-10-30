@@ -27,3 +27,6 @@ class Control:
 
     def turnOff(self):
         self._tv.turnOff()
+
+    def getTv(self):
+        return self._tv
